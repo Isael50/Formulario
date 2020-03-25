@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title> WebBots - Desarrollo Web </title>
+</head>
+<body>
+<div class="contactusWeb" id="Contactusweb">
+	<div class="titleContactus">
+		<h2 class="titleh2">CONTACTANOS</h2>
+		<div class="containerContactUS">
+			<p>Si tienes alguna duda de nuestros servicios, algún comentario, escríbenos y te responderemos lo más pronto posible.</p>
+			<div class="formCont">
+				<div class="formContLeft">
+					<h3>Formulario de contacto</h3>
+					<hr>
+					<div class="imgFormCont">
+						<img src="./IMG/LogoWB.png" alt="">
+					</div>
+					<br>
+					<div class="ficon">
+						Mensaje de WhatsApp
+						<a href="https://wa.me/529933982445?text=Hola%20WebBots,%20Me%20gustaría%20una%20cotización%20sobre%20una%20pagína%20Web"><i class="fab fa-whatsapp"></i></a>
+					</div>
+					<br>
+					<div class="ficon">
+						Llámame
+						<a href="tel:9933982445"><i class="fas fa-phone-alt"></i></a>
+					</div>
+				</div>
+				<div class="formContRight">
+					<form action="enviarE.php" method="post" target="_blank">
+						<!-- <label for="first_name">Nombre</label> -->
+						<input type="text" name="first_name" placeholder="Nombres" class="formC" required>
+						<!-- <label for="last_name">Apellido</label> -->
+						<input type="text" name="last_name" placeholder="Apellidos" class="formC" required>
+						<!-- <label for="email">E-mail</label> -->
+						<input type="email" name="email" placeholder="Correo" class="formC" required>
+						<!-- <label for="telephone">Teléfono</label> -->
+						<input type="tel" name="telephone" placeholder="Teléfono" class="formC" required>
+						<!-- <label for="message">Mensaje</label> -->
+						<textarea name="message" rows=10 cols=30 placeholder="Escriba aquí su mensaje" class="formC" required></textarea>
+						<br>
+						<div class="btnF">
+							<!-- <input type="reset" value="Borrar"> -->
+							<input type="reset" class="btnForm" value="Borrar">
+							<input type="submit" class="btnForm" value="Enviar">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
